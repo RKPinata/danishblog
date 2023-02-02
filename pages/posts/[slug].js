@@ -56,6 +56,7 @@ export default function PostPage({
             <MDXRemote {...source} components={components} />
           </article>
         </main>
+        
         <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
           {prevPost && (
             <Link href={`/posts/${prevPost.slug}`}>
@@ -84,6 +85,14 @@ export default function PostPage({
             </Link>
           )}
         </div>
+        {/* below is the button */}
+        <Link href="/">
+            <a className='mt-12 py-5 px-10 text-center font-bold rounded-full backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-gradient-to-r from-blue-400 to-emerald-400 dark:hover: hover:text-white
+            transition ease-in-out border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 hover:border-none flex flex-col'>
+              Home
+            </a>
+        </Link>        
+        {/* above is the button */}
       </article>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
