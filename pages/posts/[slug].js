@@ -87,8 +87,7 @@ export default function PostPage({
         </div>
         {/* below is the button */}
         <Link href="/">
-            <a className='mt-12 py-5 px-10 text-center font-bold rounded-full backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-gradient-to-r from-blue-400 to-emerald-400 dark:hover: hover:text-white
-            transition ease-in-out border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 hover:border-none flex flex-col'>
+            <a className='mt-12 py-5 px-10 rounded-full text-white font-bold bg-gradient-to-r from-blue-400 to-emerald-400 transition ease-in-out hover:scale-110 flex justify-center'>
               Home
             </a>
         </Link>        
